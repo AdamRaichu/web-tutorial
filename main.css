@@ -1,0 +1,19 @@
+body {
+  background-color: #1f2227;
+  color: white;
+  margin: 0px;
+}
+  
+#sidebar-left {
+  width: 25vw;
+  padding: 5px;
+}
+
+#main {
+  width: 50vw;
+  padding: 5px;
+}
+
+.box {
+  background-color: #30353d;
+}
