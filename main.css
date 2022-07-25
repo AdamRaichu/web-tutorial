@@ -2,9 +2,11 @@ body {
   background-color: #1f2227;
   color: white;
   margin: 0px;
+  display: flex;
+  justify-content: space-between;
 }
   
-#sidebar-left {
+#sidebar-left, #sidebar-right{
   width: 25vw;
   padding: 5px;
 }
@@ -12,11 +14,12 @@ body {
 #main {
   width: 50vw;
   padding: 5px;
-  background-color: #30353d;
-  border: 3px solid white;
+
+
 }
 
 .box {
   background-color: #30353d;
-  border: 3px solid white;
+  border: 2px solid white;
+  border-radius: 5px;
 }
