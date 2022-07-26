@@ -26,6 +26,10 @@ body {
   padding: 5px;
 }
 
+pre {
+  background-color: grey;
+  overflow-x: auto;
+}
 
 h1 {
   text-align: center;
