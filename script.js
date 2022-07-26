@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 document.getElementById("code-ex1").innerText = `
 <!DOCTYPE html>
 <html>
@@ -10,3 +12,5 @@ document.getElementById("code-ex1").innerText = `
   </body>
 </html>
 `;
+
+});
