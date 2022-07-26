@@ -30,6 +30,10 @@ h1 {
   text-align: center;
 }
 
+iframe {
+  background-color: white;
+  text-align: center;
+}
 
 p {
   text-indent: 5vw;
