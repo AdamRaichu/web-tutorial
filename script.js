@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-document.getElementById("code-ex1").innerText = `
+document.getElementById("code-ex1").innerHTML = hljs.highlight(`
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +11,9 @@ document.getElementById("code-ex1").innerText = `
     <span>Counter: <b id="count">0</b>.</span>
   </body>
 </html>
-`;
+`, {
+  language: "xml"
+}).value;
 
   document.getElementById("code-ex2-inline").innerText = `<link href="style.css" rel="stylesheet">`;
   
