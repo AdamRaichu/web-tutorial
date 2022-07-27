@@ -31,13 +31,16 @@ pre {
   overflow-x: auto;
 }
 
+code {
+  background-color: grey;
+}
+
 h1 {
   text-align: center;
 }
 
 iframe {
   background-color: white;
-  text-align: center;
 }
 
 p {
