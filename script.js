@@ -13,7 +13,7 @@ document.getElementById("code-ex1").innerText = `
 </html>
 `;
 
-  document.getElementById("code-ex2-inline").innerText = `<link href="style.czs" rel="stylesheet">`;
+  document.getElementById("code-ex2-inline").innerText = `<link href="style.css" rel="stylesheet">`;
   
   document.getElementById( "code-ex2-main").innerText = `
 body {
