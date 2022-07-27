@@ -25,7 +25,7 @@ body {
 
 b {
   color: blue;
-  text-size: 20px;
+  font-size: 20px;
 }
   `, {language: "css"}).value;
 });
