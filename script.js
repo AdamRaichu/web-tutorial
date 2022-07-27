@@ -15,9 +15,9 @@ document.getElementById("code-ex1").innerHTML = hljs.highlight(`
   language: "xml"
 }).value;
 
-  document.getElementById("code-ex2-inline").innerText = `<link href="style.css" rel="stylesheet">`;
+  document.getElementById("code-ex2-inline").innerHTML = hljs.highlight(`<link href="style.css" rel="stylesheet">`, {language; "xml"}).value;
   
-  document.getElementById( "code-ex2-main").innerText = `
+  document.getElementById( "code-ex2-main").innerHTML = hljs.highlight(`
 body {
   background-color: darkblue;
   color: whits;
@@ -27,5 +27,5 @@ b {
   color: blue;
   text-size: 20px;
 }
-  `;
+  `, {language: "css"}).value;
 });
