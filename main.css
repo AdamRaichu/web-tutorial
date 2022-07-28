@@ -30,14 +30,16 @@ pre {
   background-color: grey;
   padding: 5px;
   overflow-x: auto;
+  border-radius: 5px;
 }
 
 code:not(pre code) {
   background-color: grey;
-  padding-x: 5px;
+  padding: 5px;
+  border-radius: 3px;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
