@@ -20,7 +20,7 @@ document.getElementById("code-ex1").innerHTML = hljs.highlight(`
   document.getElementById("code-ex2-main").innerHTML = hljs.highlight(`
 body {
   background-color: darkblue;
-  color: whits;
+  color: white;
 }
 
 b {
