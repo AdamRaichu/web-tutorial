@@ -47,6 +47,10 @@ iframe {
   background-color: white;
 }
 
+.iframe-wrapper {
+  text-align: center;
+}
+
 p {
   text-indent: 5vw;
 }
