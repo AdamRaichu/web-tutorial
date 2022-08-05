@@ -5,8 +5,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
-  
-#sidebar-left, #sidebar-right{
+
+#sidebar-left,
+#sidebar-right {
   width: 25vw;
   padding: 5px;
 }
@@ -16,8 +17,6 @@ body {
   padding: 5px;
   margin-top: 20px;
 }
-
-
 
 .box {
   background-color: #30353d;
@@ -39,7 +38,8 @@ code:not(pre code) {
   border-radius: 3px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 

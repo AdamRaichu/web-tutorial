@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-document.getElementById("code-ex1").innerHTML = hljs.highlight(`
+  document.getElementById("code-ex1").innerHTML = hljs.highlight(`
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,11 +12,11 @@ document.getElementById("code-ex1").innerHTML = hljs.highlight(`
   </body>
 </html>
 `, {
-  language: "xml"
-}).value;
+    language: "xml"
+  }).value;
 
-  document.getElementById("code-ex2-inline").innerHTML = hljs.highlight(`<link href="style.css" rel="stylesheet">`, {language: "xml"}).value;
-  
+  document.getElementById("code-ex2-inline").innerHTML = hljs.highlight(`<link href="style.css" rel="stylesheet">`, { language: "xml" }).value;
+
   document.getElementById("code-ex2-main").innerHTML = hljs.highlight(`
 body {
   background-color: darkblue;
@@ -27,5 +27,5 @@ b {
   color: blue;
   font-size: 20px;
 }
-  `, {language: "css"}).value;
+  `, { language: "css" }).value;
 });
