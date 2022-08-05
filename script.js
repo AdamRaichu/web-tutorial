@@ -32,4 +32,14 @@ b {
   font-size: 20px;
 }
   `, { language: "css" }).value;
+
+  document.getElementById("code-ex3").innerHTML = hljs.highlight(`
+document.addEventListener("DOMContentLoaded", function () {
+  var c = document.getElementById("count");
+
+  setInterval(function () {
+    c.innerText++
+  }, 1000);
+})
+  `, { language: "javascript" }).value;
 });

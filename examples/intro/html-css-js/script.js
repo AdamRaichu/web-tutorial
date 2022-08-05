@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
   setInterval(function () {
     c.innerText++
-  }, 1000)
+  }, 1000);
 })
